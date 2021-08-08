@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import './App.css';
+import {
+  BrowserRouter,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
+
+// Components
+import Container from './components/Container';
+import Nav from './components/Nav';
+import NotHere from './components/NotHere';
+
+const App = () => (
+  
+  <BrowserRouter>
+    <div className="container">
+      <Route component={Nav} />
+      <Switch>
+        <Route exact path='/' render={ () => <Redirect to={"/search"} /> } />
+        <Route exact path="/search" component={Container} />
+        <Route path="/search/:query" component={Container} />
+        <Route path="/cats" render={ () => {return <Container query={'kittens'} /> }} />
+        <Route path="/dogs" render={ () => {return <Container query={'puppys'} /> }} />
+        <Route path="/birds" render={ () => {return <Container query={'birds'} /> }} />
+        <Route component={NotHere} />
+      </Switch> 
     </div>
-  );
-}
+  </BrowserRouter>
+)
 
 export default App;
