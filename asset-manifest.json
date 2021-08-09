@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-flickr-api/static/css/main.f516706e.chunk.css",
-    "main.js": "/react-flickr-api/static/js/main.af946336.chunk.js",
-    "main.js.map": "/react-flickr-api/static/js/main.af946336.chunk.js.map",
+    "main.js": "/react-flickr-api/static/js/main.b381e31b.chunk.js",
+    "main.js.map": "/react-flickr-api/static/js/main.b381e31b.chunk.js.map",
     "runtime-main.js": "/react-flickr-api/static/js/runtime-main.38bfa766.js",
     "runtime-main.js.map": "/react-flickr-api/static/js/runtime-main.38bfa766.js.map",
-    "static/js/2.b7a5c036.chunk.js": "/react-flickr-api/static/js/2.b7a5c036.chunk.js",
-    "static/js/2.b7a5c036.chunk.js.map": "/react-flickr-api/static/js/2.b7a5c036.chunk.js.map",
+    "static/js/2.304759a8.chunk.js": "/react-flickr-api/static/js/2.304759a8.chunk.js",
+    "static/js/2.304759a8.chunk.js.map": "/react-flickr-api/static/js/2.304759a8.chunk.js.map",
     "static/js/3.ecf75824.chunk.js": "/react-flickr-api/static/js/3.ecf75824.chunk.js",
     "static/js/3.ecf75824.chunk.js.map": "/react-flickr-api/static/js/3.ecf75824.chunk.js.map",
     "index.html": "/react-flickr-api/index.html",
     "static/css/main.f516706e.chunk.css.map": "/react-flickr-api/static/css/main.f516706e.chunk.css.map",
-    "static/js/2.b7a5c036.chunk.js.LICENSE.txt": "/react-flickr-api/static/js/2.b7a5c036.chunk.js.LICENSE.txt"
+    "static/js/2.304759a8.chunk.js.LICENSE.txt": "/react-flickr-api/static/js/2.304759a8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.38bfa766.js",
-    "static/js/2.b7a5c036.chunk.js",
+    "static/js/2.304759a8.chunk.js",
     "static/css/main.f516706e.chunk.css",
-    "static/js/main.af946336.chunk.js"
+    "static/js/main.b381e31b.chunk.js"
   ]
 }
