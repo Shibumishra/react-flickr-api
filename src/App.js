@@ -17,9 +17,6 @@ const App = () => (
         <Route exact path='/' render={ () => <Redirect to={"/search"} /> } />
         <Route exact path="/search" component={Container} />
         <Route path="/search/:query" component={Container} />
-        <Route path="/cats" render={ () => {return <Container query={'kittens'} /> }} />
-        <Route path="/dogs" render={ () => {return <Container query={'puppys'} /> }} />
-        <Route path="/birds" render={ () => {return <Container query={'birds'} /> }} /> 
         <Route component={NotHere} />
       </Switch> 
     </div>
